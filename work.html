@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Request Form</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+     <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+     </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Request Our Services</h2>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfpA9QcAjkhOcCATZcLsfFSvD7vDlP6DZJ-ttcRL4k7vI1JwQ/viewform?embedded=true" width="640" height="971" frameborder="0" marginheight="0" marginwidth="0">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="work-type">Type of Work:</label>
+            <select id="work-type" name="work-type" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="website-design">Website Design</option>
+                <option value="editing">Editing</option>
+                <option value="presentation-making">Presentation Making</option>
+                <option value="blogging">Blogging</option>
+                <option value="content-writing">Content Writing</option>
+                <option value="assignment">Assignment</option>
+                <option value="instagram-page-making">Instagram Page Making</option>
+                <option value="poster-design">Poster Design</option>
+                <option value="thumbnail-design">Thumbnail Design</option>
+            </select>
+
+            <label for="description">Work Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
