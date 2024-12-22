@@ -101,18 +101,7 @@ body {
 body {
     font-family: Arial, sans-serif;
 }
-/*
-.hero {
-    height: 70vh;
-    /* background-image: url('pexels-veeterzy-303383.jpg'); Replace with your background image 
-    background-image: url('man-using-digital-tablet-concept-service_220873-7825.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}*/
+
 
 
 .hero {
@@ -664,73 +653,164 @@ font-size: 15px !important;
 }
 
 
-/* new login and signup */
-
-/* Modal Styles */
-.modal {
-display: none; /* Hidden by default */
-position: fixed; /* Stay in place */
-z-index: 100; /* Sit on top */
-left: 0;
-top: 0;
-width: 100%; /* Full width */
-height: 100%; /* Full height */
-background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-justify-content: center;
-align-items: center;
-transition: all 0.3s ease;
-}
-
-.modal-content {
-background-color: #fff;
-padding: 20px;
-border-radius: 10px;
-width: 90%;
-max-width: 400px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-}
-
-.modal h2 {
-margin-bottom: 20px;
-color: #333;
-}
-
-.modal .form-group {
-margin-bottom: 15px;
-}
-
-.modal .form-group label {
-font-size: 16px;
-color: #555;
-}
-
-.modal .form-group input {
-width: 100%;
-padding: 10px;
-font-size: 16px;
-border: 1px solid #ddd;
-border-radius: 5px;
-}
-
-.modal .submit-btn {
-padding: 10px 20px;
-background-color: #f0a500;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-font-size: 18px;
-}
-
-.modal .submit-btn:hover {
-background-color: #e59400;
-}
-
-.close {
-position: absolute;
-top: 10px;
-right: 20px;
-font-size: 24px;
-cursor: pointer;
-color: #333;
-}
+ /* new added style sunday */
+    /* Modal Styles */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 100; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease;
+        }
+        
+        .modal-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        width: 90%;
+        max-width: 400px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        }
+        
+        .modal h2 {
+        margin-bottom: 20px;
+        color: #333;
+        }
+        
+        .modal .form-group {
+        margin-bottom: 15px;
+        }
+        
+        .modal .form-group label {
+        font-size: 16px;
+        color: #555;
+        }
+        
+        .modal .form-group input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        }
+        
+        .modal .submit-btn {
+        padding: 10px 20px;
+        background-color: #f0a500;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        }
+        
+        .modal .submit-btn:hover {
+        background-color: #e59400;
+        }
+        
+        .close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        color: #333;
+        }
+    
+    
+        @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+      a{
+       font-size: 14px !important;
+      }
+      h1{
+       font-size: 26px !important;
+      }
+      .box-2{
+       border: 2px solid black !important;
+       height: 37% !important;
+       width: 75% !important;
+    }
+     }
+    
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      a{
+       font-size: 14px !important;
+      }
+      h1{
+       font-size: 26px !important;
+      }
+      .box-2{
+       border: 2px solid black !important;
+       height: 37% !important;
+       width: 75% !important;
+    }
+     }
+    
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      a{
+       font-size: 14px !important;
+      }
+      h1{
+       font-size: 26px !important;
+      }
+      .box-2{
+       border: 2px solid black !important;
+       height: 37% !important;
+       width: 75% !important;
+    }
+     }
+    
+    
+    @media only screen and (min-width: 576px) and (max-width: 768px) {
+        a{
+         font-size: 14px !important;
+        }
+        h1{
+         font-size: 26px !important;
+        }
+        .box-2{
+         border: 2px solid black !important;
+         height: 37% !important;
+         width: 75% !important;
+     }
+       }
+     
+     @media only screen and (max-width: 576px) {
+        a{
+         font-size: 10px !important;
+        }
+        h1{
+         font-size: 18px !important;
+        }
+        .box-2{
+         border: 2px solid black !important;
+         height: 35% !important;
+         width: 75% !important;
+     }
+       }
+     
+       @media only screen and (min-width: 300px) and (max-width: 319px){
+         h1{
+           font-size: 14px !important;
+         }
+       }
+    
+    
+       .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    
+    
+        .hover a:hover{
+        color: #f0a500 !important;
+        transform: translateY(-2px); /* Pop effect on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+        }

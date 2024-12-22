@@ -42,100 +42,112 @@
 </head>
 <body>
     
-    <!-- <nav class="navbar">
-        <div class="navbar-logo">
-            <img src="./assets/logo.png" alt="Company Logo">
-        </div>
-        <ul class="navbar-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="price.html">Pricing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="navbar-buttons">
-            <a href="login.html" class="login-btn">Login</a>
-            <a href="sign_up.html" class="signup-btn">Sign Up</a>
-        </div>
-    </nav> -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand navbar-logo" href="#">
-                <img src="./assets/logo.png" alt="Company Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav navbar-menu ms-auto">
-
-
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="price.html">Pricing</a></li>
-                    <!-- <li class="dropdown">
-                        <a href="#">Dropdown</a>
-                        <div class="dropdown-content">
-                            <a href="#">Option 1</a>
-                            <a href="#">Option 2</a>
-                            <a href="#">Option 3</a>
-                        </div>
-                    </li> -->
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-        
-        </div>
-        <div class="navbar-buttons">
-            <a href="#" id="login-btn">Login</a>
-            <a href="#" id="signup-btn">Sign Up</a>
-        </div>
-        <!-- Login Modal -->
-        <div id="loginModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Login</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="login-email">Email:</label>
-                        <input type="email" id="login-email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="login-password">Password:</label>
-                        <input type="password" id="login-password" required>
-                    </div>
-                    <button type="submit" class="submit-btn">Login</button>
-                </form>
-            </div>
-         </div>
-        
-        <!-- Sign Up Modal -->
-        <div id="signupModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Sign Up</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="signup-email">Email:</label>
-                        <input type="email" id="signup-email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="signup-password">Password:</label>
-                        <input type="password" id="signup-password" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="signup-confirm-password">Confirm Password:</label>
-                        <input type="password" id="signup-confirm-password" required>
-                    </div>
-                    <button type="submit" class="submit-btn">Sign Up</button>
-                </form>
-            </div>
-        </div>
+   <!-- start top nav -->
+   <nav
+   class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block"
+   id="templatemo_nav_top"
+ >
+   <div class="container text-light">
+     <div class="w-100 d-flex justify-content-between">
+       <div>
+         <i class="fa fa-envelope mx-2"></i>
+         <img src="./svg folder/envelope-fill.svg" alt="envelope-fill">
+         <a
+           class="navbar-sm-brand text-light text-decoration-none"
+           href="mailto:info@company.com"
+           >info@company.com</a
+         >
+         <i class="fa fa-phone mx-2"></i>
+         <img src="./svg folder/telephone-fill.svg" alt="">
+         <a
+           class="navbar-sm-brand text-light text-decoration-none"
+           href="tel:010-020-0340"
+           >010-020-0340</a
+         >
+       </div>
+       <div>
+         <a href="https://www.facebook.com/" target="_blank"><img src="./svg folder/facebook-svgrepo-com.svg" alt="facebook"></a>
+         <a href="https://www.instagram.com/" target="_blank"><img src="./svg folder/instagram.svg" alt="instagram"></a>
+         <a href="https://www.twitter.com/" target="_blank"><img src="./svg folder/twitter-x.svg" alt="twitter"></a>
+         <a href="https://www.linkedin.com/" target="_blank"><img src="./svg folder/linkedin.svg" alt="linkedin"></a>
+       </div>
      </div>
-    </nav> 
+   </div>
+ </nav>
+ <!-- end top nav -->
+ 
+ <!-- start header -->
+
+<header class="p-1 text-bg-light">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <img src="./svg folder/DUNEW-new-logo-scaled.png" alt="logo" style="height: 45px; width: 50px;">
+      </a>
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 p-2 gap-2 hover">
+         <li><a class="text-decoration-none text-dark " href="index.html">Home</a></li>
+         <li><a class="text-decoration-none text-dark " href="about.html">About</a></li>
+         <li><a class="text-decoration-none text-dark " href="features.html">Features</a></li>
+         <li><a class="text-decoration-none text-dark " href="service.html">Services</a></li>
+         <li><a class="text-decoration-none text-dark " href="price.html">Pricing</a></li>
+         <li><a class="text-decoration-none text-dark" href="contact.html">Contact</a></li>
+      </ul>
+
+      
+
+    <!-- Navbar Buttons -->
+<div>
+<a href="#" id="login-btn" class="btn btn-outline-dark me-2">Login</a>
+<a href="#" id="signup-btn" class="btn btn-warning">Sign Up</a>
+</div>
+
+<!-- Login Modal -->
+<div id="loginModal" class="modal">
+<div class="modal-content">
+  <span class="close">&times;</span>
+  <h2>Login</h2>
+  <form id="loginForm" action="#" method="POST" onsubmit="return validate(event)">
+    <div class="form-group">
+      <label for="login-email">Email:</label>
+      <input type="email" id="login-email" required>
+    </div>
+    <div class="form-group">
+      <label for="login-password">Password:</label>
+      <input type="password" id="login-password" required>
+    </div>
+    <button type="submit" class="submit-btn">Login</button>
+  </form>
+</div>
+</div>
+
+<!-- Sign Up Modal -->
+<div id="signupModal" class="modal">
+<div class="modal-content">
+  <span class="close">&times;</span>
+  <h2>Sign Up</h2>
+  <form onsubmit="return takeUserInput(event)">
+    <div class="form-group">
+      <label for="signup-email">Email:</label>
+      <input type="email" id="signup-email" required>
+    </div>
+    <div class="form-group">
+      <label for="signup-password">Password:</label>
+      <input type="password" id="signup-password" required>
+    </div>
+    <div class="form-group">
+      <label for="signup-confirm-password">Confirm Password:</label>
+      <input type="password" id="signup-confirm-password" required>
+    </div>
+    <button type="submit" class="submit-btn">Sign Up</button>
+  </form>
+</div>
+</div>
+
+    </div>
+  </div>
+</header>
+<!-- close header -->
 
     <!-- service section -->
     <section class="services py-5">
@@ -148,7 +160,7 @@
                     <div class="service-item">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpA9QcAjkhOcCATZcLsfFSvD7vDlP6DZJ-ttcRL4k7vI1JwQ/viewform?embedded=true" width="640" height="971" frameborder="0" marginheight="0" marginwidth="0"">
                             <h2 class="font-size-head">Website Design</h2>
-                            <p class="font-size-para">I can write customized blogs tailored to meet client needs. Each piece will be well-structured, ensuring clarity and engagement while effectively conveying the desired message</p>
+                            <p class="font-size-para">I can design customized website tailored to meet client needs. Each design will be well-structured, ensuring clarity and engagement while effectively conveying the desired idea</p>
                         </a>
                     </div>
                 </div>
@@ -178,7 +190,7 @@
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpA9QcAjkhOcCATZcLsfFSvD7vDlP6DZJ-ttcRL4k7vI1JwQ/viewform?embedded=true" width="640" height="971" frameborder="0" marginheight="0" marginwidth="0"">
                                 <!-- <h2 class="font-size-head">Website Design</h2> -->
                             <h2 class="font-size-head">Insta Page Design</h2>
-                            <p class="font-size-para">I can write customized blogs tailored to meet client needs. Each piece will be well-structured, ensuring clarity and engagement while effectively conveying the desired message.</p>
+                            <p class="font-size-para">I can make customized insta page which meet your needs. Each piece will be well-designed, ensuring clarity and engagement  while effectively conveying the desired message.</p>
                         </a>
                     </div>
                 </div>
@@ -188,7 +200,7 @@
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpA9QcAjkhOcCATZcLsfFSvD7vDlP6DZJ-ttcRL4k7vI1JwQ/viewform?embedded=true" width="640" height="971" frameborder="0" marginheight="0" marginwidth="0"">
                                 <!-- <h2 class="font-size-head">Website Design</h2> -->
                             <h2 class="font-size-head">Assignment</h2>
-                            <p class="font-size-para">I can write customized blogs tailored to meet client needs. Each piece will be well-structured, ensuring clarity and engagement while effectively conveying the desired message.</p>
+                            <p class="font-size-para">I can write your Assignment which meet your requirements. Each topic will be well-structured, ensuring clarity and engagement while effectively conveying the desired message.</p>
                         </a>
                     </div>
                 </div>
@@ -198,7 +210,7 @@
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpA9QcAjkhOcCATZcLsfFSvD7vDlP6DZJ-ttcRL4k7vI1JwQ/viewform?embedded=true" width="640" height="971" frameborder="0" marginheight="0" marginwidth="0"">
                                 <!-- <h2 class="font-size-head">Website Design</h2> -->
                             <h2 class="font-size-head">Editing</h2>
-                            <p class="font-size-para">I can write customized blogs tailored to meet client needs. Each piece will be well-structured, ensuring clarity and engagement while effectively conveying the desired message.</p>
+                            <p class="font-size-para">I can provide video editing and photo editing according to client requirements. Each photo and videos will be well-designed, ensuring clarity while effectively conveying the desired ideas.</p>
                         </a>
                     </div>
                 </div>
